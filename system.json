@@ -1,0 +1,25 @@
+{
+"name": "chutedekindred",
+"title": "La Chute de Kindred",
+"description": "Un système pour jouer à la chute de kindred",
+"Author": "Siderss et Madippe",
+"version": 0.01,
+"minimumCoreVersion": "10.0.0",
+"compatibleCoreVersion": "10.0.0",
+"esmodules": [
+    "chutedekindred.js"
+],
+"styles":[
+    "chutedekindred.css"
+],
+"packs": [
+
+],
+"languages":[
+
+],
+"gridDistance": 5,
+"gridUnits:": "mètre",
+"primaryTokenAttribute": "wounds",
+"initiative": "1d6 + @speed"
+}

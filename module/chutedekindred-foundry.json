@@ -1,0 +1,7 @@
+import KindredItemSheet from "./sheets/kindreditemsheet.js";
+
+Hooks.once("init",() => {
+    console.log(`Kindred || init système`);
+    Items.unregisterSheet("core", ItemSheet);
+    Items.registerSheet("chutedekindred-foundry", KindredItemSheet, { makeDefault: true});
+    })
